@@ -1,0 +1,41 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Large training checkpoints and model weights (>100MB exceeds GitHub limit)
+checkpoints/*.pt
+onnx_models/*.onnx
+
+# Tensorboard logs
+runs/
+.system_generated/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
